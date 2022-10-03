@@ -1,0 +1,133 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{font-family: 'Roboto', sans-serif;}
+@font-face {font-family: Googee;src: url(./font/googee.ttf);}
+.googeefont{font-family: 'Googee';}
+
+.mainmenu{background-color: #2a2e31;}
+/* Button */
+.mybtn1{background: none;color: white;border: 1px solid #fff;border-radius: 4px;padding: 5px 20px;}
+.mybtn1:hover{background: #fff;color: #2a2e31;border: 1px solid #2a2e31;}
+.mybtn2{background: none;color: #2a2e31;border: 1px solid #2a2e31;border-radius: 4px;padding: 15px 30px;}
+.mybtn2:hover{background-color: #2a2e31;color: white;}
+.mybtn3{background: none;color: #fff;border: 1px solid #fff;border-radius: 4px;padding: 15px 30px;}
+.mybtn3:hover{background-color: #fff;color: #2a2e31;}
+.mybtn4{background: white;color: #2a2e31;border: 1px solid #fff;border-radius: 4px;padding: 12px 20px;width: 100%;
+margin-top: 35px;}
+.mybtn4:hover{background: #ffffffb3;color: #2a2e31;}
+
+.menus .nav-item a.nav-link{color: white;padding: 0 30px;}
+.menus .navbar-nav{margin: 0 auto;}
+.bnrsec{background-color: #2a2e31;color: white;text-align: center;padding: 60px 0 150px 0;background-image: url(./img/bottom\ curve.svg);background-repeat: no-repeat;background-position: bottom;background-size: 100%;padding-left: 300px;padding-right: 300px;}
+.heading{font-size: 190px;text-shadow: 4px 4px 12px #efefef;}
+.bnrpara{font-size: 18px;line-height: 35px;color: #99a1a8;margin-top: 30px;}
+.parahighlight a{color: white;font-weight: 500;text-decoration: none;}
+.parahighlight a:hover{color: white;font-weight: 500;border-bottom: 1px solid #fff;}
+.helpsec{padding-top: 150px;padding-bottom: 150px;}
+
+/* Underline */
+.underline{border-bottom: 2px solid #2a2e31;width: 10%;}
+.underline1{border-bottom: 2px solid #2a2e31;width: 10%;margin: 0 auto;}
+.underline2{border-bottom: 2px solid #fff;width: 10%;margin: 0 auto;}
+
+.parahead{font-size: 80px;font-weight: 900;line-height: 85px;}
+.helppara{font-size: 20px;}
+.helplinks{padding-top: 10px;}
+.helplinks li{list-style-type: none;padding-bottom: 10px;font-weight: 500;}
+.helplinks li a{text-decoration: none;color: #2a2e31;}
+.helplinks li a:hover{border-bottom: 1px solid #2a2e31;}
+.helplinks ul{padding-left: 0;}
+.helpimg{position: absolute;top: -85px;right: -10px;}
+.helpimg1{position: absolute;bottom: -70px;right: 165px;}
+.missionsec{background-color: #f1f2f3;text-align: center;padding-top: 50px;padding-left: 300px;padding-right: 300px;}
+.missionpara{font-size: 20px;margin-bottom: 50px;color: #99a1a8;}
+.missionclg{margin-top: 80px;}
+.missimg{padding: 0;}
+.allicons{position: relative;}
+.img1{height: 40px;position: absolute;left: -200px;top: -60px;}
+.img2{height: 35px;position: absolute;left: 0;bottom: -156px;}
+.img3{height: 40px;position: absolute;right: 110px;bottom: -150px;}
+.img4{height: 40px;position: absolute;right: -80px;top: -156px;}
+.img5{height: 35px;position: absolute;left: 0;top: -314px;}
+.img6{height: 35px;position: absolute;right: -200px;bottom: -77px;}
+.img7{height: 35px;position: absolute;right: -130px;top: -330px;}
+.insightsec{background-color: #2a2e31;text-align: center;padding-top: 50px;padding-bottom: 50px;padding-left: 300px;
+    padding-right: 300px; color: white;}
+.runheading{font-size: 20px;font-weight: 600;padding-bottom: 15px;}
+.worksec{background-color: #f1f2f3;text-align: center;padding-top: 210px;padding-bottom: 210px;padding-left: 325px;
+    padding-right: 325px;}
+.workimg{position: absolute;bottom: -160px;right: 0;z-index: 99;}
+.leadersec{background-color: #2a2e31;text-align: center;padding-top: 100px;padding-bottom: 60px; color: white;}
+.formsec{padding: 0 249px;}
+.formcolor{background: #8787873b;border: 1px solid #ffffff29;}
+.labelhaed{float: left;}
+.footersec{background-color: #000;color: white;padding-top: 40px;padding-bottom: 40px;}
+.footersec li{list-style-type: none;display: inline-block;}
+.link1{text-align: center;}
+.socialicon{text-align: center;}
+.footerlinks{text-align: center;}
+.footerlinks li{padding-left: 15px;}
+.socialicon li{padding-left: 20px;}
+.cowicon{font-size: 40px;}
+.cowicon1{font-size: 40px;position: absolute;bottom: -4px;color: #42474b;}
+
+/* / ---------- Media ---------- / */
+/* / ##Device = Desktops, ##Screen = 1281px to higher resolution desktops / */
+@media (min-width:1281px) {
+}
+/* / ##Device = Laptops, Desktops, ##Screen = B/w 1025px to 1280px / */
+@media (min-width:1025px) and (max-width:1280px) {
+}
+/* / ##Device = Tablets, Ipads (portrait), ##Screen = B/w 768px to 1024px / */
+@media (min-width:768px) and (max-width:1024px) {
+.navbar-toggler{background-color: white;}
+.navbar-collapse{text-align: center;}
+.nav-item{padding: 10px 0;}
+.heading{font-size: 140px;}
+.helpimg3{height: 370px;}
+.helpsec{padding-top: 75px;padding-bottom: 75px;}
+.helpimg1{right: -10px;}
+.helpimg2{height: 285px;}
+.allicons{display: none;}
+.worksec{padding-top: 100px;padding-bottom: 100px;padding-left: 30px;padding-right: 30px;}
+.workimg{display: none;}
+.formsec{padding: 0;}
+.socialicon li{padding-left: 10px;}
+.insightsec{padding-left: 30px;padding-right: 30px;}
+.bnrsec{padding-left: 30px;padding-right: 30px;}
+.missionsec{padding-left: 30px;padding-right: 30px;}
+.parahead{font-size: 50px;font-weight: 900;line-height: 60px;}
+}
+/* / ##Device = Tablets, Ipads (landscape), ##Screen = B/w 768px to 1024px / */
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+}
+/* / ##Device = Low Resolution Tablets, Mobiles (Landscape), ##Screen = B/w 481px to 767px / */
+@media (min-width:481px) and (max-width:767px) {
+
+}
+/* / ##Device = Most of the Smartphones Mobiles (Portrait), ##Screen = B/w 320px to 479px / */
+@media (min-width:320px) and (max-width:480px) {
+.navbar-toggler{background-color: white;}
+.menus .nav-item a.nav-link{padding: 5px 30px;text-align: center;}
+.bnrsec{padding: 60px 0 60px 0;}
+.heading{font-size: 110px;line-height: 90px;}
+.allicons{display: none;}
+.formsec{padding: 0;}
+.logoanim{height: 230px;}
+.parahead{font-size: 35px;line-height: 40px;}
+.helpimg{display: none;}
+.helpsec{padding-top: 60px;padding-bottom: 60px;}
+.helpimg1{left: 190px;bottom: -38px;}
+.helpimg2{height: 165px;}
+.insightsec{padding-top: 0;padding-bottom: 60px;padding-left: 20px;padding-right: 20px;}
+.runheading{padding-bottom: 30px;}
+.missimg{padding-bottom: 30px;}
+.worksec{padding-top: 60px;padding-bottom: 60px;padding-left: 15px;padding-right: 15px;}
+.workimg{display: none;}
+.leadersec{padding-top: 60px;}
+.link1{padding-bottom: 20px;}
+.socialicon{padding-right: 64px;}
+.footerlinks{padding-right: 64px;}
+.Menubtn{text-align: center;}
+.missionsec{padding-left: 15px;padding-right: 15px;}
+}
